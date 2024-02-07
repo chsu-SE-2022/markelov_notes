@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "040109fc0fcef769",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Универ/Excalidraw/Drawing 2024-02-07 12.46.50.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Универ/Теория автоматов и формальных языков/02. Синтаксический анализ. Порождение. Дерево вывода.md",
+                "file": "Универ/Excalidraw/Drawing 2024-02-07 12.46.50.excalidraw.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Универ/Теория автоматов и формальных языков/02. Синтаксический анализ. Порождение. Дерево вывода.md",
+                "file": "Универ/Excalidraw/Drawing 2024-02-07 12.46.50.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Универ/Теория автоматов и формальных языков/02. Синтаксический анализ. Порождение. Дерево вывода.md"
+                "file": "Универ/Excalidraw/Drawing 2024-02-07 12.46.50.excalidraw.md"
               }
             }
           },
@@ -138,11 +149,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,10 +168,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cc25fcea1d9338d8",
+  "active": "bacccb54c6572c2e",
   "lastOpenFiles": [
-    "Универ/Программирование графики и цифровая обработка изображений/02. Математика в графике. Программы в графике. Цветовые модели.md",
     "Универ/Теория автоматов и формальных языков/02. Синтаксический анализ. Порождение. Дерево вывода.md",
+    "Универ/Excalidraw/Drawing 2024-02-07 12.46.50.excalidraw.md",
+    "Excalidraw",
+    "Универ/Программирование графики и цифровая обработка изображений/02. Математика в графике. Программы в графике. Цветовые модели.md",
     "Универ/Теория автоматов и формальных языков/01. Классификация грамматик по Хомскому.md",
     "conflict-files-obsidian-git.md",
     "Универ/Теория автоматов и формальных языков/00. Общая информация.md",
@@ -192,7 +206,6 @@
     "Pictures/Pasted image 20240126204258.png",
     "Pictures/Pasted image 20240126203817.png",
     "Excalidraw/Drawing 2024-01-26 20.29.44.excalidraw.md",
-    "Excalidraw",
     "Pictures/Pasted image 20240125001806.png",
     "Pictures",
     "Pictures/Pasted image 20240125230115.png",
@@ -202,7 +215,6 @@
     "Объектно-ориентированное программирование/00..md",
     "Программирование графики и цифровая обработка изображений",
     "Основы Data Science",
-    "Микроэлектроника и схемотехника ЭВМ",
-    "Без названия/Тест.md"
+    "Микроэлектроника и схемотехника ЭВМ"
   ]
 }

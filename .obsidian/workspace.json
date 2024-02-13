@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ecca38c736f287fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Универ/Структуры и алгоритмы обработки данных/01. Алгоритмы теории графов.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bf082edddb45183b",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"

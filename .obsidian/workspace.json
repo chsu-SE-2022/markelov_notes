@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d0ca1bf17d456f05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Универ/Основы Data Science/01. Большие данные.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7287d5d5854a662e",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"

@@ -153,11 +153,11 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "236b0cbdc4222cdb",
+  "active": "bacccb54c6572c2e",
   "lastOpenFiles": [
     "Универ/Теория автоматов и формальных языков/01. Классификация грамматик по Хомскому.md",
     "Универ/Микроэлектроника и схемотехника ЭВМ/04. Счетчики.md",

@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "aacb467f2066ae49",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +168,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "22bb13e7ad3ba570",
+  "active": "aacb467f2066ae49",
   "lastOpenFiles": [
     "Универ/Основы Data Science/01. Большие данные.md",
     "Универ/Структуры и алгоритмы обработки данных/02. Способы сортировки последовательностей.md",

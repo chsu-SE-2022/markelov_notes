@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a5b90a0d44327484",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Универ/Основы Data Science/03. Генеральная совокупность и выборка.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "041bda4c2bb3e441",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"

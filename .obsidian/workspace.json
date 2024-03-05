@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7bd8aaea7f002a73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Без названия.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Универ/Объектно-ориентированное программирование/03. Механизм замещения. Виртуальные функции.md",
+                "file": "Без названия.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Универ/Объектно-ориентированное программирование/03. Механизм замещения. Виртуальные функции.md",
+                "file": "Без названия.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Универ/Объектно-ориентированное программирование/03. Механизм замещения. Виртуальные функции.md"
+                "file": "Без названия.md"
               }
             }
           },
@@ -157,10 +170,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b395e7d9fb3e526c",
+  "active": "7bd8aaea7f002a73",
   "lastOpenFiles": [
-    "Универ/Объектно-ориентированное программирование/02. Наследование.md",
     "Универ/Объектно-ориентированное программирование/03. Механизм замещения. Виртуальные функции.md",
+    "Без названия.md",
+    "Универ/Объектно-ориентированное программирование/02. Наследование.md",
     "Универ/Основы Data Science/01. Большие данные.md",
     "Универ/Основы Data Science/02. Систематизация данных. Виды структурирования информации.md",
     "Универ/Основы Data Science/Pictures/01_02. Типы задач анализа данных.png",

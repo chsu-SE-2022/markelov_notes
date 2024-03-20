@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "de06b4d96bc5b2cf",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +168,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "62ebe5c9186f5ce5",
+  "active": "de06b4d96bc5b2cf",
   "lastOpenFiles": [
     "Pasted image 20240320144258.png",
     "Универ/Основы Data Science/Pictures/06_05. Круговая диаграмма.png",

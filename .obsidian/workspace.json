@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Универ/Основы Data Science/Лекции/07. Подготовка данных по CRISP-DM.md",
+                "file": "Универ/Основы Data Science/Лекции/08. Основные понятия машинного обучения.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Универ/Основы Data Science/Лекции/07. Подготовка данных по CRISP-DM.md",
+                "file": "Универ/Основы Data Science/Лекции/08. Основные понятия машинного обучения.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Универ/Основы Data Science/Лекции/07. Подготовка данных по CRISP-DM.md",
+                "file": "Универ/Основы Data Science/Лекции/08. Основные понятия машинного обучения.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Универ/Основы Data Science/Лекции/07. Подготовка данных по CRISP-DM.md"
+                "file": "Универ/Основы Data Science/Лекции/08. Основные понятия машинного обучения.md"
               }
             }
           },
@@ -159,8 +159,8 @@
   },
   "active": "9f0972ef74841ad8",
   "lastOpenFiles": [
-    "Универ/Основы Data Science/Лекции/06. Визуализация данных.md",
     "Универ/Основы Data Science/Лекции/07. Подготовка данных по CRISP-DM.md",
+    "Универ/Основы Data Science/Лекции/06. Визуализация данных.md",
     "Универ/Основы Data Science/Лекции/08. Основные понятия машинного обучения.md",
     "Универ/Основы Data Science/Pictures/08_01. Дерево решений. Классификация.png",
     "Универ/Основы Data Science/Pictures/08_02. Дерево решений. Кораблекрушение.png",

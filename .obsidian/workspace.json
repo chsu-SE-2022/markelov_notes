@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5f2f83fb508178a2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +168,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "58d5d2da86dc74b1",
+  "active": "5f2f83fb508178a2",
   "lastOpenFiles": [
     "Универ/Структуры и алгоритмы обработки данных/Pictures/03_10. Вставка элемента, случай 3.png",
     "README.md",

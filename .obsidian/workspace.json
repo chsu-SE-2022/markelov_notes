@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9f0972ef74841ad8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Универ/Объектно-ориентированное программирование/Лекции/05. Множественное наследование.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "58d5d2da86dc74b1",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,7 +157,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bacccb54c6572c2e",
+  "active": "58d5d2da86dc74b1",
   "lastOpenFiles": [
     "Универ/Структуры и алгоритмы обработки данных/Pictures/03_06. Балансировка при 2 случае.png",
     "Универ/Структуры и алгоритмы обработки данных/Pictures/03_05. Нарушение баланса, случай 2.png",

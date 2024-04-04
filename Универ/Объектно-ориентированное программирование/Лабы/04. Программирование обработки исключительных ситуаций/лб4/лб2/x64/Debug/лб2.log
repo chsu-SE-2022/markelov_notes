@@ -1,0 +1,14 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (лб2-1.vcxproj, лб2.vcxproj, лб3.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  лб1.cpp
+C:\Users\Dell\Desktop\ООП 2 семестр\лб4\лб2\Mobile.h(44,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Dell\Desktop\ООП 2 семестр\лб4\лб2\Mobile.h(55,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Dell\Desktop\ООП 2 семестр\лб4\лб2\Mobile.h(66,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Dell\Desktop\ООП 2 семестр\лб4\лб2\Mobile.h(77,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Dell\Desktop\ООП 2 семестр\лб4\лб2\лб1.cpp(66,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Dell\Desktop\ООП 2 семестр\лб4\лб2\лб1.cpp(174,29): warning C4101: ex: неиспользованная локальная переменная
+C:\Users\Dell\Desktop\ООП 2 семестр\лб4\лб2\лб1.cpp(196,34): warning C4101: ex: неиспользованная локальная переменная
+C:\Users\Dell\Desktop\ООП 2 семестр\лб4\лб2\лб1.cpp(323,40): warning C4101: ex: неиспользованная локальная переменная
+C:\Users\Dell\Desktop\ООП 2 семестр\лб4\лб2\лб1.cpp(408,41): warning C4101: ex: неиспользованная локальная переменная
+C:\Users\Dell\Desktop\ООП 2 семестр\лб4\лб2\Queue.h(59): warning C4715: Queue<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::del: значение возвращается не при всех путях выполнения
+C:\Users\Dell\Desktop\ООП 2 семестр\лб4\лб2\Queue.h(59): warning C4715: Queue<int>::del: значение возвращается не при всех путях выполнения
+  лб2.vcxproj -> C:\Users\Dell\Desktop\ООП 2 семестр\лб4\x64\Debug\лб4.exe

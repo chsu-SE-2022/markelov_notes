@@ -1,0 +1,18 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (лб2-1.vcxproj, лб3.vcxproj, лб4.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  лб1.cpp
+C:\Users\NikitRom\Desktop\2 курс\ООП\2\лб2\лб2\Mobile.h(44,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "лб1.cpp")
+  
+C:\Users\NikitRom\Desktop\2 курс\ООП\2\лб2\лб2\Mobile.h(55,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "лб1.cpp")
+  
+C:\Users\NikitRom\Desktop\2 курс\ООП\2\лб2\лб2\Mobile.h(66,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "лб1.cpp")
+  
+C:\Users\NikitRom\Desktop\2 курс\ООП\2\лб2\лб2\Mobile.h(77,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "лб1.cpp")
+  
+C:\Users\NikitRom\Desktop\2 курс\ООП\2\лб2\лб2\лб1.cpp(75,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\NikitRom\Desktop\2 курс\ООП\2\лб2\лб2\Queue.h(59): warning C4715: Queue<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::del: значение возвращается не при всех путях выполнения
+C:\Users\NikitRom\Desktop\2 курс\ООП\2\лб2\лб2\Queue.h(59): warning C4715: Queue<int>::del: значение возвращается не при всех путях выполнения
+  лб2.vcxproj -> C:\Users\NikitRom\Desktop\2 курс\ООП\2\лб2\x64\Debug\лб2.exe

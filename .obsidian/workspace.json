@@ -137,8 +137,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -157,7 +156,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7edc736f57364877",
+  "active": "bc8c4f1e4b5e59a1",
   "lastOpenFiles": [
     "Универ/Объектно-ориентированное программирование/Лекции/06. Шаблонные наследования.md",
     "Универ/Объектно-ориентированное программирование/Pictures/06_01. Шаблонное наследование.png",

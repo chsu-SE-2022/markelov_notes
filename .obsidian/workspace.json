@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4d27475e0b9b9bce",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +175,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "20dcc25138231265",
+  "active": "4d27475e0b9b9bce",
   "lastOpenFiles": [
     "2 курс/Теория автоматов и формальных языков/Лабы/1 семестр/02. Регулярные множества и регулярные выражения/Код/MyForm.cpp",
     "2 курс/Теория автоматов и формальных языков/Лабы/1 семестр/02. Регулярные множества и регулярные выражения/Код/MyForm.h",

@@ -1,0 +1,137 @@
+#pragma once
+#define _CRT_SECURE_NO_WARNINGS
+#include <iostream>
+#include <string>
+using namespace std;
+
+enum security { WEP, WPA, WPA2, WPA3, NoProtection };
+
+class WiFi {
+private:
+	string login;
+	string password;
+	static string work;
+	security protection;
+	int speed, radius, traffic;
+	double frequency;
+
+public:
+
+	bool operator > (const WiFi& other) {
+		return this->speed > other.speed;
+	}
+
+	bool operator < (const WiFi& other) {
+		return this->speed < other.speed;
+	}
+
+	bool operator == (const WiFi& other) {
+		return this->speed == other.speed;
+	}
+
+	int operator + (const WiFi& other) {
+		return this->traffic + other.traffic;
+	}
+
+	WiFi(string valueLogin, string valuePassword, security valueProtection, int valueSpeed, int valueRadius, double valueFrequency) {
+		this->login = valueLogin;                      //конструктор со всеми параметрами
+		this->password = valuePassword;
+		this->protection = valueProtection;
+		this->speed = valueSpeed;
+		this->radius = valueRadius;
+		this->frequency = valueFrequency;
+		this->work = "Да";
+		this->traffic = rand() % 100;
+	}
+
+	WiFi() {
+		this->login = "Неопределенная сеть";                      //конструктор по умолчанию
+		this->password = "0";
+		this->protection = NoProtection;
+		this->speed = 0;
+		this->radius = 0;
+		this->frequency = 0;
+		this->work = "Да";
+		this->traffic = 0;
+	}
+
+	WiFi(string valueLogin) {
+		this->login = valueLogin;                      //конструктор с 1 параметром
+		this->password = "0";
+		this->protection = NoProtection;
+		this->speed = 0;
+		this->radius = 0;
+		this->frequency = 0;
+		this->work = "Да";
+		this->traffic = rand() % 100;
+	}
+
+	WiFi(double valueFrequency, string valueLogin) {
+		this->login = valueLogin;                      //конструктор с 2 параметрами
+		this->password = "0";
+		this->protection = NoProtection;
+		this->speed = 0;
+		this->radius = 0;
+		this->frequency = valueFrequency;
+		this->work = "Да";
+		this->traffic = rand() % 100;
+	}
+
+	WiFi(int valueSpeed, int valueRadius, string valueLogin) {
+		this->login = valueLogin;                      //конструктор с 3 параметрами
+		this->password = "0";
+		this->protection = NoProtection;
+		this->speed = valueSpeed;
+		this->radius = valueRadius;
+		this->frequency = 0;
+		this->work = "Да";
+		this->traffic = rand() % 100;
+	}
+
+	WiFi(const WiFi& obj) {
+		this->login = obj.login;                      //копирующий конструктор
+		this->password = obj.password;
+		this->protection = obj.protection;
+		this->speed = obj.speed;
+		this->radius = obj.radius;
+		this->frequency = obj.frequency;
+		this->work = "Да";
+		this->traffic = rand() % 100;
+	}
+
+	string getLogin() {  //геттер для логина
+		return login;
+	}
+
+	string getPassword() {   //геттер для пароля
+		return password;
+	}
+
+	string getProtection() {   //геттер для протокола безопасности
+		switch (protection) {
+		case WEP: return "WEP";
+		case WPA: return "WPA";
+		case WPA2: return "WPA2";
+		case WPA3: return "WPA3";
+		case NoProtection: return "Без защиты";
+		default: return "N/A";
+		}
+	}
+
+	friend ostream& operator<<(ostream& info, WiFi& other) {      //вывод информации о сети
+		info << "Вы успешно подключились к WiFi-сети " << other.login << endl << endl;
+		info << "Информация о сети" << endl;
+		info << "Скорость: " << other.speed << " Мбит/с" << endl;
+		info << "Частота: " << other.frequency << " ГГц" << endl;
+		info << "Радиус покрытия: " << other.radius << " м" << endl;
+		info << "Протокол безопасности: " << other.getProtection() << endl;
+		info << "Cеть работает: " << other.work << endl;
+		info << "Передано данных: " << other.traffic << " Мб" << endl;
+		info << endl << "=======================" << endl << endl;
+		return info;
+	}
+
+	~WiFi() {  //деструктор
+
+	}
+};

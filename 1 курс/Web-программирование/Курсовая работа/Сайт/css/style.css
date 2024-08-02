@@ -1,0 +1,120 @@
+body {
+    font-family: 'VK Sans Display Medium';
+    font-size: 1vw;
+    text-align: justify;
+    color: #ffffff;
+    line-height: 1.5vw;
+    background: #ffffff;
+  }
+  ::selection {
+    background: #ffffff; /* Цвет фона */
+    color: #0077ff; /* Цвет текста */
+   }
+  .wrap {
+  margin: 0 auto;
+  width: 90vw; /* отступы относительно окна браузера */
+  }    
+  .background {
+  background: #0077ff;
+  }
+  .header {
+    padding: 4em 1em; /* поля вокруг текста */
+  }
+  .logo {
+    float: left; /* обтекание логотипа */
+    width: 38%;
+  }
+  .logo a {
+    display: block; /* переопределение в блочный */
+  }
+  .nav {
+    float: right; /* обтекание навигации */
+  }
+  .nav > ul {
+    margin: 0;
+    padding: 0;
+  }
+  .nav > ul > li {
+    display:inline-block; /* переопределение в строчно-блочный */
+  }
+  .nav > ul > li > a:hover {
+    color: #0077ff;
+    background: #ffffff;
+  }
+  .nav > ul > li.active a {
+    background: #0077ff;
+    color: #ffffff;
+  }
+  .nav > ul > li > a {
+    font-family: 'VK Sans Display Medium';
+    font-size: 1.1em;
+    font-weight: 700;
+    padding: 0.5em 0.9em;
+    color: #ffffff;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .block {
+    padding: 1em 1em; /* поля вокруг текста */
+    font-size: 1.2vw;
+  }
+  .menu {
+    padding: 3em 1em; /* поля вокруг текста */
+    font-size: 1.2vw;
+  }
+  .footer {
+    padding: 1em 1em; /* поля вокруг текста */
+  }
+  @font-face {
+    font-family: 'VK Sans Display Medium'; /* Гарнитура шрифта */
+    src: url("VKSansDisplay-Medium.ttf"); /* Путь к файлу со шрифтом */
+   }  
+   .ul{
+    list-style:none;
+    margin:0;
+    padding: 0;
+  }
+  .li{
+    padding:0.1vw;
+    font-size:1.2vw;
+  }
+  .li:before{
+    content: '';
+    display: inline-block;
+    height: 0.5vw;
+    width: 0.5vw;
+    vertical-align: middle;
+    border-radius:50%;
+    background-color:#FFFFFF;
+    margin-right:1vw;
+  }
+  .topbutton {
+    width:1vw;
+    border:0.25vw solid #0077FF;
+    text-align:center;
+    padding:0.5vw;
+    position:fixed;
+    bottom:1vw;
+    right:1.5vw;
+    cursor:pointer;
+    color:#000000;
+    font-family:verdana;
+    font-size:1vw;
+    border-radius: 5vw;
+    -moz-border-radius: 5vw;
+    -webkit-border-radius: 5vw;
+    -khtml-border-radius: 5vw;
+    text-decoration: none;
+    }
+    table {
+      border-collapse: collapse;
+      border: 0.25vw solid #FFFFFF;
+      width: 50vw;
+    }
+   th, td {
+    border: 0.25vw solid #FFFFFF;
+    padding: 1vw 1vw;
+    width: 40vw;
+   }

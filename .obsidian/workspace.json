@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 курс/Основы Data Science/Лекции/07. Подготовка данных по CRISP-DM.md",
+                "file": "2 курс/Основы Data Science/Лекции/08. Основные понятия машинного обучения.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 курс/Основы Data Science/Лекции/07. Подготовка данных по CRISP-DM.md",
+                "file": "2 курс/Основы Data Science/Лекции/08. Основные понятия машинного обучения.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 курс/Основы Data Science/Лекции/07. Подготовка данных по CRISP-DM.md",
+                "file": "2 курс/Основы Data Science/Лекции/08. Основные понятия машинного обучения.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 курс/Основы Data Science/Лекции/07. Подготовка данных по CRISP-DM.md"
+                "file": "2 курс/Основы Data Science/Лекции/08. Основные понятия машинного обучения.md"
               }
             }
           },
@@ -166,9 +166,9 @@
   },
   "active": "165edbeaecde5565",
   "lastOpenFiles": [
+    "2 курс/Основы Data Science/Лекции/07. Подготовка данных по CRISP-DM.md",
     "2 курс/Основы Data Science/Лекции/06. Визуализация данных.md",
     "2 курс/Основы Data Science/Лекции/08. Основные понятия машинного обучения.md",
-    "2 курс/Основы Data Science/Лекции/07. Подготовка данных по CRISP-DM.md",
     "2 курс/Основы Data Science/Лекции/05. Корреляция.md",
     "2 курс/Основы Data Science/Лекции/04. Анализ статистических связей. Тест хи-квадрат. Тест Стьюдента.md",
     "2 курс/Основы Data Science/Лекции/03. Генеральная совокупность и выборка.md",

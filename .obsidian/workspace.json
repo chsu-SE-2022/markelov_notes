@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d3df189caea7b9ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Без названия.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 курс/С#-программирование/Лекции/01. Базовая информация.md",
+                "file": "Без названия.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3 курс/С#-программирование/Лекции/01. Базовая информация.md",
+                "file": "Без названия.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 курс/С#-программирование/Лекции/01. Базовая информация.md"
+                "file": "Без названия.md"
               }
             }
           },
@@ -165,12 +178,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "978e4edcd8be3bcc",
+  "active": "d3df189caea7b9ef",
   "lastOpenFiles": [
+    "3 курс/С#-программирование/Лекции/01. Базовая информация.md",
+    "Без названия.md",
     "3 курс/С#-программирование/Pictures/01_06. Стек и куча класса Pen на последней строке.png",
     "README.md",
     "3 курс/С#-программирование/Pictures/01_05. Стек и куча класса Pen на предпоследней строке.png",
-    "3 курс/С#-программирование/Лекции/01. Базовая информация.md",
     "3 курс/С#-программирование/Pictures/01_04. Стек и куча класса Pen.png",
     "3 курс/С#-программирование/Pictures/01_02. Стек и куча для объектов a, b, c на 3 строке.png",
     "3 курс/С#-программирование/Pictures/01_03. Стек и куча для объектов a, b, c на 4 строке.png",

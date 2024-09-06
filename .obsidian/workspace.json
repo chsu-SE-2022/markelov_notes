@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "978e4edcd8be3bcc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 курс/С#-программирование/Лекции/01. Базовая информация.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d3df189caea7b9ef",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,7 +165,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bacccb54c6572c2e",
+  "active": "d3df189caea7b9ef",
   "lastOpenFiles": [
     "3 курс/Программирование на Python/Лекции",
     "3 курс/С#-программирование/Лекции/01. Базовая информация.md",

@@ -16,10 +16,25 @@
                 "file": "3 курс/Организация и архитектура ЭВМ и вычислительных систем/Лекции/02. Система команд процессора.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "02. Система команд процессора"
+            }
+          },
+          {
+            "id": "c44b5128e0ad0680",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +54,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -54,7 +71,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
             }
           },
           {
@@ -62,7 +81,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
             }
           }
         ]
@@ -93,7 +114,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для 02. Система команд процессора"
             }
           },
           {
@@ -105,7 +128,9 @@
                 "file": "3 курс/Организация и архитектура ЭВМ и вычислительных систем/Лекции/02. Система команд процессора.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из 02. Система команд процессора"
             }
           },
           {
@@ -116,7 +141,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
             }
           },
           {
@@ -126,7 +153,9 @@
               "type": "outline",
               "state": {
                 "file": "3 курс/Организация и архитектура ЭВМ и вычислительных систем/Лекции/02. Система команд процессора.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Структура 02. Система команд процессора"
             }
           },
           {
@@ -134,7 +163,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -142,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "git-history-view",
-              "state": {}
+              "state": {},
+              "icon": "history",
+              "title": "History"
             }
           }
         ],
@@ -165,7 +198,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bacccb54c6572c2e",
+  "active": "c44b5128e0ad0680",
   "lastOpenFiles": [
     "3 курс/Организация и архитектура ЭВМ и вычислительных систем/Pictures/02_05. Аккумуляторная архитектура системы команд.png",
     "3 курс/Организация и архитектура ЭВМ и вычислительных систем/Лекции/00. Общая информация.md",

@@ -1,0 +1,6 @@
+name: Petrov Petr Pertovich
+age: 30
+job: director
+height: 182.3
+weight: 88.7
+city: Moscow

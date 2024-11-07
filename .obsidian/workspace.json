@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "05. Организация микросхем памяти"
             }
+          },
+          {
+            "id": "61e2c4341495ab20",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,7 +198,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3cf3d957542f99b1",
+  "active": "61e2c4341495ab20",
   "lastOpenFiles": [
     "3 курс/Организация и архитектура ЭВМ и вычислительных систем/Pictures/05_01. Организация микросхем памяти.png",
     "3 курс/Организация и архитектура ЭВМ и вычислительных систем/Лекции/05. Организация микросхем памяти.md",

@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "01. Планирование производственной программы"
             }
+          },
+          {
+            "id": "434d927c338f538d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,7 +198,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4a413c462328b721",
+  "active": "434d927c338f538d",
   "lastOpenFiles": [
     "3 курс/Экономика/Лекции/15. Мировая экономика.md",
     "3 курс/Экономика/Практические занятия/01. Планирование производственной программы.md",

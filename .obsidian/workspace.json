@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "16. Рациональное экономическое поведение"
             }
+          },
+          {
+            "id": "771a4c7ec739ef9a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,7 +198,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ba86aea75927f044",
+  "active": "771a4c7ec739ef9a",
   "lastOpenFiles": [
     "3 курс/Экономика/Лекции/15. Мировая экономика.md",
     "3 курс/Экономика/Лекции/14. Государственный бюджет.md",

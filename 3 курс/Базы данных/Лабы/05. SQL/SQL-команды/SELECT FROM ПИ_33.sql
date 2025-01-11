@@ -1,0 +1,1 @@
+SELECT * FROM ПИ_33;

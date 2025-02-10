@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "03. Производная и дифференциал функции. Основные теоремы о дифференцируемых функциях"
             }
+          },
+          {
+            "id": "34e7346f3156eccc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +53,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -185,7 +199,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c916838aa134004f",
+  "active": "34e7346f3156eccc",
   "lastOpenFiles": [
     "1 курс/Математический анализ/Лекции/12. Дифференциальные уравнения.md",
     "1 курс/Математический анализ/Лекции/11. Знакочередующиеся ряды. Абсолютная и условная сходимость знакочередующихся рядов.md",

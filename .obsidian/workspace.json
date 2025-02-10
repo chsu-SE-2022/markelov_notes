@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "bc2f587a0206b044",
+        "id": "24cb45d25a999f2d",
         "type": "tabs",
         "children": [
           {
-            "id": "c916838aa134004f",
+            "id": "b2e8c8982ebcd6b6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 курс/Математический анализ/Лекции/03. Производная и дифференциал функции. Основные теоремы о дифференцируемых функциях.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "03. Производная и дифференциал функции. Основные теоремы о дифференцируемых функциях"
-            }
-          },
-          {
-            "id": "34e7346f3156eccc",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.3"
+              "title": "Новая вкладка"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,7 +182,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "34e7346f3156eccc",
+  "active": "bacccb54c6572c2e",
   "lastOpenFiles": [
     "1 курс/Математический анализ/Лекции/12. Дифференциальные уравнения.md",
     "1 курс/Математический анализ/Лекции/11. Знакочередующиеся ряды. Абсолютная и условная сходимость знакочередующихся рядов.md",

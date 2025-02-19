@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "05. Процессы и потоки"
             }
+          },
+          {
+            "id": "242d5d7edf409d9b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,7 +213,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bb26b1346c810926",
+  "active": "242d5d7edf409d9b",
   "lastOpenFiles": [
     "3 курс/Операционные системы ЭВМ/Pictures/05_02. Блокирующие переменные.png",
     "3 курс/Операционные системы ЭВМ/Pictures/05_01. Синхронизация процессов и потоков.png",

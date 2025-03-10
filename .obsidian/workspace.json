@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "08. ОС Windows"
             }
+          },
+          {
+            "id": "c9bf8d97dcd1cc05",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,7 +213,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8a3dba2ebe37938e",
+  "active": "c9bf8d97dcd1cc05",
   "lastOpenFiles": [
     "3 курс/Операционные системы ЭВМ/Pictures/08_01. Архитектура Windows NT.png",
     "3 курс/Операционные системы ЭВМ/Лекции/07. Файловые системы.md",

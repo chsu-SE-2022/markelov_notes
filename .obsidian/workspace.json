@@ -121,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "8bb7e447084d3554",
@@ -229,7 +230,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bacccb54c6572c2e",
+  "active": "e99b0ee0c8503fd3",
   "lastOpenFiles": [
     "3 курс/Физическая культура и спорт/Лекции/05. Методические основы самостоятельных занятий физическими упражнениями.md",
     "3 курс/Правоведение/Лекции/11. Основы наследственного права.md",

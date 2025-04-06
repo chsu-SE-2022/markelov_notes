@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5
+    "width": 307.5,
+    "collapsed": true
   },
   "right": {
     "id": "8bb7e447084d3554",
@@ -200,7 +201,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bacccb54c6572c2e",
+  "active": "65259ebc98678bba",
   "lastOpenFiles": [
     "3 курс/Физическая культура и спорт/Pictures/Без названия",
     "3 курс/Физическая культура и спорт/Лекции/06. Самоконтроль эффективности занятий физическими упражнениями различной направленности.md",

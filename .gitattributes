@@ -1,2 +1,3 @@
 *.rtf linguist-detectable=false
 *.ipynb linguist-detectable=false
+*.pas linguist-detectable=false

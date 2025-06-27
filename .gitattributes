@@ -3,3 +3,4 @@
 *.pas linguist-detectable=false
 *.json linguist-detectable=false
 *.c linguist-detectable=false
+*.css linguist-detectable=false

@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="kj00pv-wOyioAJ5D3fAY">
+    <mxGraphModel dx="2226" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AyJ8SqF23u5eHqdV9oSg-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="AyJ8SqF23u5eHqdV9oSg-1" target="AyJ8SqF23u5eHqdV9oSg-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyJ8SqF23u5eHqdV9oSg-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="AyJ8SqF23u5eHqdV9oSg-1" target="AyJ8SqF23u5eHqdV9oSg-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyJ8SqF23u5eHqdV9oSg-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="AyJ8SqF23u5eHqdV9oSg-1" target="AyJ8SqF23u5eHqdV9oSg-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyJ8SqF23u5eHqdV9oSg-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="AyJ8SqF23u5eHqdV9oSg-1" target="AyJ8SqF23u5eHqdV9oSg-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyJ8SqF23u5eHqdV9oSg-1" value="Виджет для манипуляции данными БД" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-317" y="221" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FiEtAexpWzFBdMHgFHb9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" parent="1" source="AyJ8SqF23u5eHqdV9oSg-6" target="AyJ8SqF23u5eHqdV9oSg-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyJ8SqF23u5eHqdV9oSg-6" value="Подсистема фильтрации данных" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-518" y="386" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AyJ8SqF23u5eHqdV9oSg-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="AyJ8SqF23u5eHqdV9oSg-7" target="AyJ8SqF23u5eHqdV9oSg-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyJ8SqF23u5eHqdV9oSg-7" value="Подсистема поиска данных" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-376" y="386" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AyJ8SqF23u5eHqdV9oSg-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="AyJ8SqF23u5eHqdV9oSg-10" target="AyJ8SqF23u5eHqdV9oSg-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyJ8SqF23u5eHqdV9oSg-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="AyJ8SqF23u5eHqdV9oSg-10" target="AyJ8SqF23u5eHqdV9oSg-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyJ8SqF23u5eHqdV9oSg-10" value="Подсистема создания и редактирования записей таблицы БД" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-234" y="386" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AyJ8SqF23u5eHqdV9oSg-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="AyJ8SqF23u5eHqdV9oSg-12" target="AyJ8SqF23u5eHqdV9oSg-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyJ8SqF23u5eHqdV9oSg-12" value="Подсистема истории записей БД" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-92" y="386" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AyJ8SqF23u5eHqdV9oSg-14" value="Подсистема хранения часто используемых записей" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-122" y="523" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AyJ8SqF23u5eHqdV9oSg-17" value="Подсистема обращений к БД" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-346" y="523" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,8 +1,2 @@
 *.rtf linguist-detectable=false
 *.ipynb linguist-detectable=false
-*.pas linguist-detectable=false
-*.json linguist-detectable=false
-*.c linguist-detectable=false
-*.css linguist-detectable=false
-*.sql linguist-detectable=false
-*.xaml linguist-detectable=false

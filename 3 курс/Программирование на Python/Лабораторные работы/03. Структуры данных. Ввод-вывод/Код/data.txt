@@ -1,0 +1,19 @@
+Список:
+Ivanov Ivan Ivanovich
+25
+programmer
+Cherepovets
+175.5
+62.3
+88005553535
+iiivanov@yandex.ru
+
+Словарь:
+name: Petrov Petr Pertovich
+age: 30
+job: director
+height: 182.3
+weight: 88.7
+city: Moscow
+number: 84959528833
+email: pppetrov@mail.ru

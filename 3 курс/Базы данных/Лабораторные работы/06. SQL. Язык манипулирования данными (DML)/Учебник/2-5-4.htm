@@ -1,0 +1,34 @@
+<html>
+<head>
+   <title>Использование фразы HAVING</title>
+ 
+</head>
+
+<body background="fon.jpg">
+<div align="center"><b><font>2.5.4. Использование фразы HAVING</font></b></div><font size = "-1">
+
+<p align=justify>Фраза HAVING (рис.2.3) играет такую же роль для групп, что и фраза WHERE для строк: она используется для исключения групп, точно так же, как WHERE используется для исключения строк. Эта фраза включается в предложение лишь при наличии фразы GROUP BY, а выражение в HAVING должно принимать единственное значение для группы.</P>
+<p align=justify>Например, выдать коды продуктов, поставляемых более чем двумя поставщиками:</P>
+<CENTER><TABLE BORDER=0 width=100%>
+<TR valign=top><TD rowspan=5>
+<PRE>
+SELECT	
+FROM	Поставки
+GROUP	BY ПС
+HAVING	COUNT(*) > 2;</PRE></td>
+<TH align=left rowspan=5>Результат:</TH>
+<TD>ПР</TD></TR>
+<TR><TD>9</TD></TR>
+<TR><TD>11</TD></TR>
+<TR><TD>12</TD></TR>
+</table></CENTER>
+
+
+<p align=justify>В п.<a href=3-6.htm>3.6</a> можно познакомиться с более содержательным примером использования этой фразы.</P>
+
+<p align="center">
+<a href="2-5-3.htm">2.5.3</a> | <a href="index.htm">Содержание</a> | <a href="3-1.htm">3.1</a>
+</p>
+
+</body>
+</html>

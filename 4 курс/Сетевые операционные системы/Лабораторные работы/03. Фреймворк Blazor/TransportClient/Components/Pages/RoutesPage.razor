@@ -1,0 +1,77 @@
+@page "/routes"
+@rendermode InteractiveServer
+@using TransportClient.Models
+@using TransportClient.Services
+
+<PageTitle>Маршруты</PageTitle>
+
+<h1>Маршруты</h1>
+
+@if (routes is null)
+{
+    <p>Загрузка...</p>
+}
+else
+{
+    <p>
+        <a class="btn btn-primary" href="/routes/new">Добавить маршрут</a>
+    </p>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Номер</th>
+                <th>Название</th>
+                <th>Тип</th>
+                <th>Активен</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (var i = 0; i < routes.Length; i++)
+            {
+                var r = routes[i];
+                <tr>
+                    <td>@r.Id</td>
+                    <td>@r.Number</td>
+                    <td>@r.Name</td>
+                    <td>@r.TransportType</td>
+                    <td>@(r.Active ? "Да" : "Нет")</td>
+                    <td>
+                        <a class="btn btn-sm btn-secondary" href=@($"/routes/edit/{r.Id}")>Редактировать</a>
+                        <a class="btn btn-sm btn-info ms-1" href=@($"/routes/{r.Id}/stops")>Остановки</a>
+                        <button class="btn btn-sm btn-danger ms-1" @onclick="() => DeleteAsync(r.Id)">Удалить</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private RouteDto[]? routes;
+
+    [Inject] public ApiClient Api { get; set; } = default!;
+    [Inject] public NavigationManager Nav { get; set; } = default!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            routes = await Api.GetRoutesAsync() ?? [];
+        }
+        catch
+        {
+            routes = [];
+        }
+    }
+
+    private async Task DeleteAsync(int id)
+    {
+        if (await Api.DeleteRouteAsync(id))
+        {
+            routes = await Api.GetRoutesAsync() ?? [];
+            StateHasChanged();
+        }
+    }
+}

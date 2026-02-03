@@ -1,0 +1,35 @@
+version: '3.9'
+
+services:
+  transportapi:
+    container_name: transportapi
+    build:
+      context: ./TransportApi
+      dockerfile: Dockerfile
+    ports:
+      - "5056:8080"   # host:container
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__DefaultConnection=Data Source=/data/transport.db
+    networks:
+      - transport_net
+    volumes:
+      - ./TransportApi/transport.db:/data/transport.db
+
+  transportclient:
+    container_name: transportclient
+    build:
+      context: ./TransportClient
+    ports:
+      - "5203:8081"
+    environment:
+      - ASPNETCORE_URLS=http://+:8081
+      - ApiBaseUrl=http://transportapi:8080
+    depends_on:
+      - transportapi
+    networks:
+      - transport_net
+
+networks:
+  transport_net:
+    driver: bridge

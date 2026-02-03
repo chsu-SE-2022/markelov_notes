@@ -1,0 +1,89 @@
+@page "/routes/new"
+@page "/routes/edit/{id:int}"
+@rendermode InteractiveServer
+@using TransportClient.Models
+@using TransportClient.Services
+
+<PageTitle>Маршрут</PageTitle>
+
+<h1>@(isNew ? "Новый маршрут" : $"Редактирование маршрута №{model.Number}")</h1>
+
+<EditForm Model="model" OnValidSubmit="SaveAsync" FormName="route-edit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label class="form-label">Название</label>
+        <InputText class="form-control" @bind-Value="model.Name" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Номер</label>
+        <InputText class="form-control" @bind-Value="model.Number" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Тип</label>
+        <InputText class="form-control" @bind-Value="model.TransportType" />
+    </div>
+
+    <div class="form-check mb-3">
+        <InputCheckbox class="form-check-input" @bind-Value="model.Active" />
+        <label class="form-check-label">Активен</label>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Сохранить</button>
+    <a class="btn btn-secondary ms-2" href="/routes">Отмена</a>
+</EditForm>
+
+@if (!string.IsNullOrWhiteSpace(error))
+{
+    <div class="alert alert-danger mt-3">@error</div>
+}
+
+@code {
+    [Parameter] public int? Id { get; set; }
+
+    [Inject] public ApiClient Api { get; set; } = default!;
+    [Inject] public NavigationManager Nav { get; set; } = default!;
+
+    private bool isNew => !Id.HasValue || Id.Value == 0;
+    private RouteDto model = new();
+    private string? error;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (!isNew)
+        {
+            var dto = await Api.GetRouteAsync(Id!.Value);
+            if (dto is not null)
+            {
+                model = dto;
+            }
+        }
+    }
+
+    private async Task SaveAsync()
+    {
+        error = null;
+        bool ok;
+        if (isNew)
+        {
+            var created = await Api.CreateRouteAsync(model);
+            ok = created is not null;
+        }
+        else
+        {
+            ok = await Api.UpdateRouteAsync(model.Id, model);
+        }
+
+        if (ok)
+        {
+            Nav.NavigateTo("/routes", forceLoad: true);
+        }
+        else
+        {
+            error = "Не удалось сохранить изменения. Проверьте подключение к API и корректность данных.";
+        }
+    }
+}

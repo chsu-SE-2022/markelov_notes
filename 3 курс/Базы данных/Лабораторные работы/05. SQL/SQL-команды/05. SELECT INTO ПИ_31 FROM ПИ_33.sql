@@ -1,0 +1,3 @@
+SELECT * INTO ПИ_31
+    FROM ПИ_33
+    WHERE FALSE;

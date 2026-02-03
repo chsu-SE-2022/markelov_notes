@@ -1,0 +1,60 @@
+CODE SEGMENT
+	ORG 100h  
+	ASSUME DS:CODE
+Start: 
+
+MOV AX, 5
+MOV BX, 9
+MOV CX, 7
+
+CMP AX, BX
+JGE maxA
+CMP BX, CX
+JGE maxB
+CMP CX, AX
+JGE maxC
+
+maxA:
+IMUL x
+MOV DX, AX
+MOV AX, BX
+MOV BX, DX
+XOR DX, DX
+IDIV CX
+ADD AX, BX
+SUB AX, 6
+MOV AH, 0
+INT 21h
+
+maxB:
+ADD AX, BX
+IMUL CX
+MOV DX, 6
+SUB DX, AX
+MOV AX, DX
+MOV AH, 0
+INT 21h
+
+maxC:
+ADD BX, 7
+MOV CX, AX
+MOV AX, BX
+IMUL y
+MOV BX, AX
+MOV AX, 3
+XOR DX, DX
+IDIV CX
+SUB AX, BX
+MOV AH, 0
+INT 21h
+
+a DW -3 
+b DW 8
+c DW 12
+x DW 4
+y DW 5	                       
+ 
+CODE ENDS
+	END  Start   
+	
+	

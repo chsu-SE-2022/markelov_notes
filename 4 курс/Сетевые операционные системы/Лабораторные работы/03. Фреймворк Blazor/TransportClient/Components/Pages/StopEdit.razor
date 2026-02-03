@@ -1,0 +1,115 @@
+@page "/routes/{RouteId:int}/stops/new"
+@page "/stops/edit/{Id:int}"
+@rendermode InteractiveServer
+@using TransportClient.Models
+@using TransportClient.Services
+
+<PageTitle>Остановка</PageTitle>
+
+<h1>@(IsNew ? $"Новая остановка для маршрута №{route?.Number ?? RouteId.ToString()}" : $"Редактирование остановки #{Id}")</h1>
+
+<EditForm Model="model" OnValidSubmit="SaveAsync" FormName="stop-edit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    @if (IsNew)
+    {
+        <div class="mb-3">
+            <label class="form-label">Маршрут (RouteId)</label>
+            <InputNumber class="form-control" @bind-Value="model.RouteId" />
+        </div>
+    }
+
+    <div class="mb-3">
+        <label class="form-label">Название</label>
+        <InputText class="form-control" @bind-Value="model.Name" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Порядковый номер (#)</label>
+        <InputNumber class="form-control" @bind-Value="model.SequenceIndex" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Широта</label>
+        <InputNumber class="form-control" @bind-Value="model.Latitude" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Долгота</label>
+        <InputNumber class="form-control" @bind-Value="model.Longitude" />
+    </div>
+
+    <button class="btn btn-primary" type="submit">Сохранить</button>
+    <a class="btn btn-secondary ms-2" href=@BackUrl>Отмена</a>
+</EditForm>
+
+@if (!string.IsNullOrWhiteSpace(error))
+{
+    <div class="alert alert-danger mt-3">@error</div>
+}
+
+@code {
+    [Parameter] public int RouteId { get; set; }
+    [Parameter] public int? Id { get; set; }
+
+    [Inject] public ApiClient Api { get; set; } = default!;
+    [Inject] public NavigationManager Nav { get; set; } = default!;
+
+    private bool IsNew => Id is null;
+    private StopDto model = new();
+    private RouteDto? route;
+    private string? error;
+
+    private string BackUrl => IsNew
+        ? $"/routes/{RouteId}/stops"
+        : "/routes"; // не знаем routeId у stop, поэтому вернёмся к списку маршрутов
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (IsNew)
+        {
+            model.RouteId = RouteId;
+            route = await Api.GetRouteAsync(RouteId);
+            var existing = await Api.GetStopsByRouteAsync(RouteId) ?? [];
+            var nextIndex = existing.Length > 0 ? existing.Max(s => s.SequenceIndex) + 1 : 1;
+            model.SequenceIndex = nextIndex;
+        }
+        else
+        {
+            var dto = await Api.GetStopAsync(Id!.Value);
+            if (dto is not null)
+            {
+                model = dto;
+                // при редактировании можно не подтягивать номер, по запросу оставляем заголовок без номера
+            }
+        }
+    }
+
+    private async Task SaveAsync()
+    {
+        error = null;
+        bool ok;
+        if (IsNew)
+        {
+            var created = await Api.CreateStopAsync(model);
+            ok = created is not null;
+        }
+        else
+        {
+            ok = await Api.UpdateStopAsync(Id!.Value, model);
+        }
+
+        if (ok)
+        {
+            // после сохранения уйдём на список остановок маршрута (если знаем RouteId), иначе на маршруты
+            var routeId = model.RouteId != 0 ? model.RouteId : RouteId;
+            var url = routeId != 0 ? $"/routes/{routeId}/stops" : "/routes";
+            Nav.NavigateTo(url, forceLoad: true);
+        }
+        else
+        {
+            error = "Не удалось сохранить остановку. Проверьте корректность данных (RouteId, уникальность SequenceIndex) и подключение к API.";
+        }
+    }
+}

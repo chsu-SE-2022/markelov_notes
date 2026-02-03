@@ -1,0 +1,80 @@
+@page "/routes/{RouteId:int}/stops"
+@rendermode InteractiveServer
+@using TransportClient.Models
+@using TransportClient.Services
+
+<PageTitle>Остановки</PageTitle>
+
+<h1>Остановки маршрута @(route is not null ? $"№{route.Number}" : RouteId)</h1>
+
+@if (stops is null)
+{
+    <p>Загрузка...</p>
+}
+else
+{
+    <p>
+        <a class="btn btn-primary" href=@($"/routes/{RouteId}/stops/new")>Добавить остановку</a>
+    </p>
+    if (stops.Length == 0)
+    {
+        <p>Остановок нет.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Название</th>
+                    <th>#</th>
+                    <th>Широта</th>
+                    <th>Долгота</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (var i = 0; i < stops.Length; i++)
+                {
+                    var s = stops[i];
+                    <tr>
+                        <td>@s.Id</td>
+                        <td>@s.Name</td>
+                        <td>@s.SequenceIndex</td>
+                        <td>@s.Latitude</td>
+                        <td>@s.Longitude</td>
+                        <td>
+                            <a class="btn btn-sm btn-secondary me-1" href=@($"/stops/edit/{s.Id}")>Редактировать</a>
+                            <button class="btn btn-sm btn-danger" @onclick="() => DeleteAsync(s.Id)">Удалить</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
+
+<p>
+    <a class="btn btn-secondary" href=@($"/routes")>Назад к маршрутам</a>
+</p>
+
+@code {
+    [Parameter] public int RouteId { get; set; }
+
+    [Inject] public ApiClient Api { get; set; } = default!;
+
+    private StopDto[]? stops;
+    private RouteDto? route;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        route = await Api.GetRouteAsync(RouteId);
+        stops = await Api.GetStopsByRouteAsync(RouteId) ?? [];
+    }
+
+    private async Task DeleteAsync(int id)
+    {
+        if (await Api.DeleteStopAsync(id))
+            stops = await Api.GetStopsByRouteAsync(RouteId) ?? [];
+    }
+}
